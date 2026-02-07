@@ -1105,8 +1105,14 @@ body.is-locked{
 /* =========================================================
    14) SERVICIOS
    ========================================================= */
-.services{ display:grid; gap: 14px; }
 
+/* Grid de cards */
+.services{
+  display:grid;
+  gap: 14px;
+}
+
+/* Card */
 .serviceCard{
   display:grid;
   gap: 12px;
@@ -1126,7 +1132,11 @@ body.is-locked{
   background: rgba(11,60,93,.08);
 }
 
-.serviceCard__body{ padding: 16px 16px 18px; }
+/* Texto de la card */
+.serviceCard__body{
+  padding: 16px 16px 18px;
+}
+
 .serviceCard__body h3{ margin: 0 0 6px; }
 
 .serviceCard__body p{
@@ -1134,6 +1144,7 @@ body.is-locked{
   color: rgba(12,20,32,.72);
 }
 
+/* Lista ticks */
 .ticks{
   list-style:none;
   padding:0;
@@ -1146,6 +1157,7 @@ body.is-locked{
 
 .ticks--light{ color: rgba(255,255,255,.92); }
 
+/* Mini CTAs */
 .miniCtas{
   margin-top: 16px;
   display:grid;
@@ -1171,6 +1183,37 @@ body.is-locked{
   border-color: rgba(37,211,102,.22);
   color: #0f5d2b;
 }
+
+/* =========================================================
+   📱 MÓVIL: TODO centrado en Servicios
+   - Solo afecta al bloque de Servicios
+   - Desktop se queda normal
+   ========================================================= */
+@media (max-width: 767.98px){
+  .serviceCard__body{
+    text-align: center;
+  }
+
+  .serviceCard__body h3,
+  .serviceCard__body p{
+    text-align: center;
+  }
+
+  .ticks{
+    justify-items: center; /* centra cada <li> en grid */
+    text-align: center;
+  }
+
+  .miniCtas{
+    justify-items: center; /* centra los botones */
+  }
+
+  .miniCta{
+    width: 100%;
+    max-width: 520px; /* para que no se vea “enano” en móviles grandes */
+  }
+}
+
 
 
 /* =========================================================
