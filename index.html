@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Fontanero profesional en Huelva. Urgencias 24h, desatascos, fugas y reparaciones. Llamar o WhatsApp sin compromiso." />
+  <title>Fontanería Raúl | Huelva · Urgencias 24h</title>
+
+  <meta name="theme-color" content="#0b3c5d" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- Skip link (accesibilidad) -->
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- Topbar -->
+  <div class="topbar" role="banner">
+    <div class="container topbar__row">
+      <div class="topbar__left">
+        <span class="pill">📍 Huelva y alrededores</span>
+        <span class="pill pill--ghost">⏱️ Lun–Dom · 24h urgencias</span>
+      </div>
+      <div class="topbar__right">
+        <a class="topbar__link" href="tel:600000000" aria-label="Llamar por teléfono">📞 600 000 000</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="header" role="navigation" aria-label="Navegación principal">
+    <div class="container header__row">
+      <a class="brand" href="#inicio" aria-label="Ir a inicio">
+        <span class="brand__mark" aria-hidden="true">🔧</span>
+        <span class="brand__name">Fontanería Raúl</span>
+        <span class="brand__tag">Huelva</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="nav-desktop" aria-label="Menú">
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Cómo trabajamos</a>
+        <a href="#proyectos">Trabajos</a>
+        <a href="#opiniones">Reseñas</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto" class="btn btn--sm btn--primary">Pedir aviso</a>
+      </nav>
+
+      <!-- Hamburger -->
+      <button class="hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menuMovil"
+        id="btnMenu">
+        <span class="hamburger__lines" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile drawer (FUERA del header para que NO lo corte el sticky) -->
+  <div class="drawer" id="menuMovil" hidden>
+    <div class="drawer__overlay" data-close="true" aria-hidden="true"></div>
+
+    <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Menú móvil">
+      <div class="drawer__head">
+        <div class="drawer__title">Menú</div>
+        <button class="drawer__close" type="button" aria-label="Cerrar menú" data-close="true">✕</button>
+      </div>
+
+      <div class="drawer__content">
+        <a href="#servicios" class="drawer__link">Servicios</a>
+        <a href="#urgencias" class="drawer__link">Urgencias 24h</a>
+        <a href="#proceso" class="drawer__link">Cómo trabajamos</a>
+        <a href="#proyectos" class="drawer__link">Trabajos</a>
+        <a href="#precios" class="drawer__link">Planes</a>
+        <a href="#opiniones" class="drawer__link">Reseñas</a>
+        <a href="#faq" class="drawer__link">Preguntas</a>
+        <a href="#contacto" class="drawer__cta btn btn--primary">Pedir aviso</a>
+
+        <div class="drawer__mini">
+          <a class="mini-action" href="tel:600000000">📞 Llamar</a>
+          <a class="mini-action mini-action--wa" href="https://wa.me/34600000000">💬 WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="contenido">
+
+    <!-- HERO premium -->
+    <section id="inicio" class="hero">
+      <div class="container hero__grid">
+
+        <div class="hero__copy">
+          <div class="badge">
+            <span class="badge__dot" aria-hidden="true"></span>
+            <span>Atención rápida · Huelva y alrededores</span>
+          </div>
+
+          <h1 class="hero__title">
+            Fontanero profesional <span class="accent">24h</span>
+          </h1>
+
+          <p class="hero__lead">
+            <span id="typewriter"></span>
+          
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="tel:600000000">📞 Llamar ahora</a>
+            <a class="btn btn--ghost btn--lg" href="https://wa.me/34600000000">💬 WhatsApp</a>
+          </div>
+
+          <div class="hero__stats" aria-label="Indicadores">
+            <div class="stat">
+              <div class="stat__num">⭐⭐⭐⭐⭐</div>
+              <div class="stat__label">Reseñas en Google</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">+10</div>
+              <div class="stat__label">Años de experiencia</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">Rápido</div>
+              <div class="stat__label">Respuesta y cita</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Derecha: panel tech -->
+        <div class="hero__media">
+
+          <div class="heroTech" role="img" aria-label="Panel técnico con información de servicios">
+            <div class="heroTech__grid" aria-hidden="true"></div>
+
+            <!-- Reflejo animado -->
+            <div class="heroTech__shine" aria-hidden="true"></div>
+
+            <div class="heroTech__panel">
+              <h3>Fontanería profesional</h3>
+              <p>Urgencias · Reparaciones · Instalaciones</p>
+
+              <ul class="heroTech__list">
+                <li>✔ Atención directa sin intermediarios</li>
+                <li>✔ Presupuesto claro antes de empezar</li>
+                <li>✔ Puntualidad y limpieza</li>
+                <li>✔ Materiales de calidad</li>
+                <li>✔ Garantía en el trabajo</li>
+              </ul>
+
+            </div>
+
+            <div class="heroTech__chips" aria-hidden="true">
+              <span class="chip">Desatascos</span>
+              <span class="chip">Fugas</span>
+              <span class="chip">Termos</span>
+              <span class="chip">Grifos</span>
+            </div>
+          </div>
+
+          <!-- Efectos visuales (CSS) -->
+          <div class="blob blob--a" aria-hidden="true"></div>
+          <div class="blob blob--b" aria-hidden="true"></div>
+          <div class="gridfx" aria-hidden="true"></div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Logos / confianza rápida -->
+    <section class="strip">
+      <div class="container strip__row">
+        <div class="strip__item">✔ Presupuesto claro</div>
+        <div class="strip__item">✔ Trabajo garantizado</div>
+        <div class="strip__item">✔ Atención directa</div>
+        <div class="strip__item">✔ Zona local</div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Servicios más habituales</h2>
+          <p>Lo que más piden en viviendas y negocios. Si es otra cosa, pregúntanos.</p>
+        </div>
+
+        <div class="services">
+          <article class="serviceCard">
+            <div class="serviceCard__media">
+              <img src="img/servicio1.png" alt="Desatasco de tuberías" />
+            </div>
+            <div class="serviceCard__body">
+              <h3>Desatascos</h3>
+              <p>Desagües, fregaderos, baños y bajantes. Solución rápida y limpia.</p>
+              <ul class="ticks">
+                <li>✔ Diagnóstico rápido</li>
+                <li>✔ Evitamos daños</li>
+                <li>✔ Recomendaciones</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="serviceCard">
+            <div class="serviceCard__media">
+              <img src="img/servicio2.png" alt="Reparación de fuga de agua" />
+            </div>
+            <div class="serviceCard__body">
+              <h3>Fugas de agua</h3>
+              <p>Localizamos y reparamos fugas en grifos, cisternas, llaves y tuberías.</p>
+              <ul class="ticks">
+                <li>✔ Reparación fiable</li>
+                <li>✔ Materiales buenos</li>
+                <li>✔ Sin chapuzas</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="serviceCard">
+            <div class="serviceCard__media">
+              <img src="img/servicio3.png" alt="Instalación de termo o calentador" />
+            </div>
+            <div class="serviceCard__body">
+              <h3>Termos y calentadores</h3>
+              <p>Instalación, sustitución y mantenimiento básico para que no te falle.</p>
+              <ul class="ticks">
+                <li>✔ Instalación segura</li>
+                <li>✔ Revisión y ajustes</li>
+                <li>✔ Consejos de uso</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="miniCtas">
+          <a class="miniCta" href="tel:600000000">📞 Llama y te decimos precio aproximado</a>
+          <a class="miniCta miniCta--wa" href="https://wa.me/34600000000">💬 Envíanos una foto por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Urgencias -->
+    <section id="urgencias" class="section section--danger">
+      <div class="container danger__grid">
+        <div>
+          <h2>🚨 Urgencias 24 horas</h2>
+          <p>
+            Si tienes una fuga importante, un atasco grave o te quedaste sin agua caliente,
+            atendemos lo antes posible. Dinos tu zona y el problema.
+          </p>
+          <div class="danger__actions">
+            <a class="btn btn--light btn--lg" href="tel:600000000">Llamar urgente</a>
+            <a class="btn btn--ghostlight btn--lg" href="https://wa.me/34600000000">WhatsApp urgente</a>
+          </div>
+        </div>
+
+        <div class="danger__panel">
+          <div class="danger__panelTitle">Qué necesitamos para ir rápido</div>
+          <ul class="ticks ticks--light">
+            <li>✔ Tu ubicación / zona</li>
+            <li>✔ Qué ocurre (fuga, atasco, termo…)</li>
+            <li>✔ Si puedes, una foto o vídeo</li>
+            <li>✔ Si es vivienda o negocio</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proceso -->
+    <section id="proceso" class="section section--soft">
+      <div class="container">
+        <div class="section__head">
+          <h2>Cómo trabajamos</h2>
+          <p>Un proceso simple para evitar líos y que todo quede claro desde el principio.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step step--reveal">
+            <div class="step__icon">1</div>
+            <div class="step__txt">
+              <h3>Contacto</h3>
+              <p>Llamada o WhatsApp. Nos dices el problema y la zona.</p>
+            </div>
+          </div>
+
+          <div class="step step--reveal">
+            <div class="step__icon">2</div>
+            <div class="step__txt">
+              <h3>Presupuesto</h3>
+              <p>Te decimos una orientación y acordamos visita si hace falta.</p>
+            </div>
+          </div>
+
+          <div class="step step--reveal">
+            <div class="step__icon">3</div>
+            <div class="step__txt">
+              <h3>Trabajo</h3>
+              <p>Vamos y solucionamos. Siempre con cuidado y limpieza.</p>
+            </div>
+          </div>
+
+          <div class="step step--reveal">
+            <div class="step__icon">4</div>
+            <div class="step__txt">
+              <h3>Garantía</h3>
+              <p>Te explicamos lo hecho y cómo evitar que vuelva a pasar.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Trabajos / galería -->
+    <section id="proyectos" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Trabajos recientes</h2>
+          <p>Espacio para fotos reales del fontanero (esto sube la conversión muchísimo).</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery__item">
+            <img src="img/trabajo1.png" alt="Trabajo de reparación de tubería" />
+            <figcaption>Reparación de fuga</figcaption>
+          </figure>
+
+          <figure class="gallery__item">
+            <img src="img/trabajo2.png" alt="Instalación de grifo" />
+            <figcaption>Cambio de grifería</figcaption>
+          </figure>
+
+          <figure class="gallery__item">
+            <img src="img/trabajo3.png" alt="Trabajo de desatasco" />
+            <figcaption>Desatasco rápido</figcaption>
+          </figure>
+        </div>
+
+        <div class="note">
+          <strong>Tip:</strong> con 6–12 fotos reales (móvil vale) la web parece “de empresa grande”.
+        </div>
+      </div>
+    </section>
+
+    <!-- Planes -->
+    <section id="precios" class="section section--soft">
+      <div class="container">
+        <div class="section__head">
+          <h2>Planes (opcional)</h2>
+          <p>Esto hace que parezca web de empresa grande. El fontanero puede decir “elige uno”.</p>
+        </div>
+
+        <div class="pricing">
+          <article class="priceCard">
+            <h3>Básico</h3>
+            <p class="priceCard__desc">Lo más común: averías y arreglos rápidos.</p>
+            <ul class="ticks">
+              <li>✔ Presupuesto claro</li>
+              <li>✔ Trabajo limpio</li>
+              <li>✔ Recomendaciones</li>
+            </ul>
+            <a class="btn btn--primary btn--full" href="#contacto">Pedir aviso</a>
+          </article>
+
+          <article class="priceCard priceCard--featured">
+            <div class="ribbon">Más pedido</div>
+            <h3>Urgencias</h3>
+            <p class="priceCard__desc">Prioridad para fugas, atascos graves y sin agua caliente.</p>
+            <ul class="ticks">
+              <li>✔ Atención rápida</li>
+              <li>✔ Diagnóstico y solución</li>
+              <li>✔ Consejos de prevención</li>
+            </ul>
+            <a class="btn btn--primary btn--full" href="tel:600000000">Llamar urgente</a>
+          </article>
+
+          <article class="priceCard">
+            <h3>Mantenimiento</h3>
+            <p class="priceCard__desc">Revisiones básicas y cambios preventivos.</p>
+            <ul class="ticks">
+              <li>✔ Termo / calentador</li>
+              <li>✔ Grifos y llaves</li>
+              <li>✔ Pequeñas mejoras</li>
+            </ul>
+            <a class="btn btn--primary btn--full" href="https://wa.me/34600000000">Consultar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Opiniones -->
+    <section id="opiniones" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Reseñas</h2>
+          <p>Pon aquí 3–6 reseñas reales (ideal de Google). Si no tiene, inventamos “placeholder” hasta conseguirlas.
+          </p>
+        </div>
+
+        <div class="reviews">
+          <article class="review">
+            <div class="review__top">
+              <strong>María G.</strong>
+              <span class="stars">⭐⭐⭐⭐⭐</span>
+            </div>
+            <p>“Rápido y muy profesional. Me arregló una fuga en el mismo día y dejó todo limpio.”</p>
+          </article>
+
+          <article class="review">
+            <div class="review__top">
+              <strong>Juan P.</strong>
+              <span class="stars">⭐⭐⭐⭐⭐</span>
+            </div>
+            <p>“Muy claro con el presupuesto. Se nota que sabe lo que hace. Recomendable.”</p>
+          </article>
+
+          <article class="review">
+            <div class="review__top">
+              <strong>Ana R.</strong>
+              <span class="stars">⭐⭐⭐⭐⭐</span>
+            </div>
+            <p>“Atasco solucionado rápido. Buen trato y precio razonable.”</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section--soft">
+      <div class="container">
+        <div class="section__head">
+          <h2>Preguntas frecuentes</h2>
+          <p>Esto reduce llamadas “tontas” y da confianza (parece web de verdad).</p>
+        </div>
+
+        <div class="faq">
+          <details class="faq__item">
+            <summary>¿Cuánto cuesta un servicio?</summary>
+            <div class="faq__content">
+              Depende del problema. Te damos un precio aproximado por teléfono y si hay que ver la avería, lo acordamos
+              antes.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿Trabajas fines de semana?</summary>
+            <div class="faq__content">
+              Sí, en urgencias atendemos fines de semana y festivos según disponibilidad.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿En qué zonas trabajas?</summary>
+            <div class="faq__content">
+              Huelva y alrededores: San Juan del Puerto, Moguer, Palos, Punta Umbría (y otras cercanas).
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary>¿Das garantía?</summary>
+            <div class="faq__content">
+              Sí. Explicamos lo que se hace y ofrecemos garantía según el tipo de trabajo y materiales.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+      <div class="container contact">
+        <div class="contact__left">
+          <div class="section__head">
+            <h2>Contacto</h2>
+            <p>Te atendemos rápido. Si puedes, dinos la zona y manda una foto por WhatsApp.</p>
+          </div>
+
+          <div class="contactCards">
+            <a class="contactCard" href="tel:600000000">
+              <div class="contactCard__icon">📞</div>
+              <div>
+                <div class="contactCard__title">Llamar</div>
+                <div class="contactCard__text">600 000 000</div>
+              </div>
+            </a>
+
+            <a class="contactCard contactCard--wa" href="https://wa.me/34600000000">
+              <div class="contactCard__icon">💬</div>
+              <div>
+                <div class="contactCard__title">WhatsApp</div>
+                <div class="contactCard__text">Respuesta rápida</div>
+              </div>
+            </a>
+
+            <div class="contactCard">
+              <div class="contactCard__icon">📍</div>
+              <div>
+                <div class="contactCard__title">Zona</div>
+                <div class="contactCard__text">Huelva y alrededores</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="note">
+            <strong>Para vender:</strong> dile al cliente “esto está preparado para conectar su ficha de Google y salir
+            más profesional”.
+          </div>
+        </div>
+
+        <div class="contact__right">
+          <div class="formCard">
+            <h3>Pide tu aviso</h3>
+            <p class="muted">Formulario simple (sin backend). Puedes conectarlo luego a email o WhatsApp.</p>
+
+            <form id="leadForm" class="form" autocomplete="on">
+              <label>
+                Nombre
+                <input name="nombre" type="text" placeholder="Tu nombre" required />
+              </label>
+
+              <label>
+                Teléfono
+                <input name="telefono" type="tel" placeholder="Tu teléfono" required />
+              </label>
+
+              <label>
+                Zona
+                <input name="zona" type="text" placeholder="Ej: San Juan del Puerto" required />
+              </label>
+
+              <label>
+                Mensaje
+                <textarea name="mensaje" rows="4"
+                  placeholder="Cuéntanos qué ocurre (si es urgente, indícalo)"></textarea>
+              </label>
+
+              <button class="btn btn--primary btn--full" type="submit">Enviar por WhatsApp</button>
+              <p class="tiny">Al enviar, se abrirá WhatsApp con el mensaje preparado.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div>
+          <div class="footer__brand">Fontanería Raúl</div>
+          <div class="footer__muted">Servicio profesional · Huelva</div>
+        </div>
+
+        <div class="footer__links">
+          <a href="#servicios">Servicios</a>
+          <a href="#proyectos">Trabajos</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+
+        <div class="footer__cta">
+          <a class="btn btn--light btn--sm" href="tel:600000000">📞 600 000 000</a>
+          <a class="btn btn--ghostlight btn--sm" href="https://wa.me/34600000000">💬 WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        <small>© <span id="year"></span> Fontanería Raúl. Todos los derechos reservados.</small>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Floating actions -->
+  <div class="floatActions" aria-label="Acciones rápidas">
+    <a class="floatActions__btn" href="tel:600000000" aria-label="Llamar">📞</a>
+    <a class="floatActions__btn floatActions__btn--wa" href="https://wa.me/34600000000" aria-label="WhatsApp">💬</a>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
