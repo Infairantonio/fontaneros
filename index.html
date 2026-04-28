@@ -10,15 +10,14 @@
 
   <meta name="theme-color" content="#0b3c5d" />
 
+  <link rel="icon" href="favicon.ico" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
 
-  <!-- Skip link (accesibilidad) -->
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-  <!-- Topbar -->
   <div class="topbar" role="banner">
     <div class="container topbar__row">
       <div class="topbar__left">
@@ -31,7 +30,6 @@
     </div>
   </div>
 
-  <!-- Header / Nav -->
   <header class="header" role="navigation" aria-label="Navegación principal">
     <div class="container header__row">
       <a class="brand" href="#inicio" aria-label="Ir a inicio">
@@ -40,7 +38,6 @@
         <span class="brand__tag">Huelva</span>
       </a>
 
-      <!-- Desktop nav -->
       <nav class="nav-desktop" aria-label="Menú">
         <a href="#servicios">Servicios</a>
         <a href="#proceso">Cómo trabajamos</a>
@@ -50,7 +47,6 @@
         <a href="#contacto" class="btn btn--sm btn--primary">Pedir aviso</a>
       </nav>
 
-      <!-- Hamburger -->
       <button class="hamburger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menuMovil"
         id="btnMenu">
         <span class="hamburger__lines" aria-hidden="true">
@@ -60,7 +56,6 @@
     </div>
   </header>
 
-  <!-- Mobile drawer (FUERA del header para que NO lo corte el sticky) -->
   <div class="drawer" id="menuMovil" hidden>
     <div class="drawer__overlay" data-close="true" aria-hidden="true"></div>
 
@@ -90,7 +85,6 @@
 
   <main id="contenido">
 
-    <!-- HERO premium -->
     <section id="inicio" class="hero">
       <div class="container hero__grid">
 
@@ -106,7 +100,6 @@
 
           <p class="hero__lead">
             <span id="typewriter"></span>
-          
           </p>
 
           <div class="hero__actions">
@@ -130,13 +123,10 @@
           </div>
         </div>
 
-        <!-- Derecha: panel tech -->
         <div class="hero__media">
 
           <div class="heroTech" role="img" aria-label="Panel técnico con información de servicios">
             <div class="heroTech__grid" aria-hidden="true"></div>
-
-            <!-- Reflejo animado -->
             <div class="heroTech__shine" aria-hidden="true"></div>
 
             <div class="heroTech__panel">
@@ -150,7 +140,6 @@
                 <li>✔ Materiales de calidad</li>
                 <li>✔ Garantía en el trabajo</li>
               </ul>
-
             </div>
 
             <div class="heroTech__chips" aria-hidden="true">
@@ -161,7 +150,6 @@
             </div>
           </div>
 
-          <!-- Efectos visuales (CSS) -->
           <div class="blob blob--a" aria-hidden="true"></div>
           <div class="blob blob--b" aria-hidden="true"></div>
           <div class="gridfx" aria-hidden="true"></div>
@@ -171,7 +159,6 @@
       </div>
     </section>
 
-    <!-- Logos / confianza rápida -->
     <section class="strip">
       <div class="container strip__row">
         <div class="strip__item">✔ Presupuesto claro</div>
@@ -181,7 +168,6 @@
       </div>
     </section>
 
-    <!-- Servicios -->
     <section id="servicios" class="section">
       <div class="container">
         <div class="section__head">
@@ -243,7 +229,6 @@
       </div>
     </section>
 
-    <!-- Urgencias -->
     <section id="urgencias" class="section section--danger">
       <div class="container danger__grid">
         <div>
@@ -270,7 +255,6 @@
       </div>
     </section>
 
-    <!-- Proceso -->
     <section id="proceso" class="section section--soft">
       <div class="container">
         <div class="section__head">
@@ -291,7 +275,7 @@
             <div class="step__icon">2</div>
             <div class="step__txt">
               <h3>Presupuesto</h3>
-              <p>Te decimos una orientación y acordamos visita si hace falta.</p>
+              <p>Te damos una orientación y acordamos visita si hace falta.</p>
             </div>
           </div>
 
@@ -315,12 +299,11 @@
       </div>
     </section>
 
-    <!-- Trabajos / galería -->
     <section id="proyectos" class="section">
       <div class="container">
         <div class="section__head">
           <h2>Trabajos recientes</h2>
-          <p>Espacio para fotos reales del fontanero (esto sube la conversión muchísimo).</p>
+          <p>Algunos ejemplos de reparaciones, instalaciones y servicios realizados.</p>
         </div>
 
         <div class="gallery">
@@ -339,19 +322,14 @@
             <figcaption>Desatasco rápido</figcaption>
           </figure>
         </div>
-
-        <div class="note">
-          <strong>Tip:</strong> con 6–12 fotos reales (móvil vale) la web parece “de empresa grande”.
-        </div>
       </div>
     </section>
 
-    <!-- Planes -->
     <section id="precios" class="section section--soft">
       <div class="container">
         <div class="section__head">
-          <h2>Planes (opcional)</h2>
-          <p>Esto hace que parezca web de empresa grande. El fontanero puede decir “elige uno”.</p>
+          <h2>Planes de servicio</h2>
+          <p>Opciones orientativas según el tipo de necesidad. El presupuesto final dependerá del trabajo concreto.</p>
         </div>
 
         <div class="pricing">
@@ -392,13 +370,11 @@
       </div>
     </section>
 
-    <!-- Opiniones -->
     <section id="opiniones" class="section">
       <div class="container">
         <div class="section__head">
           <h2>Reseñas</h2>
-          <p>Pon aquí 3–6 reseñas reales (ideal de Google). Si no tiene, inventamos “placeholder” hasta conseguirlas.
-          </p>
+          <p>Opiniones de clientes sobre nuestros servicios de fontanería.</p>
         </div>
 
         <div class="reviews">
@@ -429,12 +405,11 @@
       </div>
     </section>
 
-    <!-- FAQ -->
     <section id="faq" class="section section--soft">
       <div class="container">
         <div class="section__head">
           <h2>Preguntas frecuentes</h2>
-          <p>Esto reduce llamadas “tontas” y da confianza (parece web de verdad).</p>
+          <p>Resolvemos algunas dudas habituales antes de solicitar un servicio.</p>
         </div>
 
         <div class="faq">
@@ -456,7 +431,7 @@
           <details class="faq__item">
             <summary>¿En qué zonas trabajas?</summary>
             <div class="faq__content">
-              Huelva y alrededores: San Juan del Puerto, Moguer, Palos, Punta Umbría (y otras cercanas).
+              Huelva y alrededores: San Juan del Puerto, Moguer, Palos, Punta Umbría y otras zonas cercanas.
             </div>
           </details>
 
@@ -470,7 +445,6 @@
       </div>
     </section>
 
-    <!-- Contacto -->
     <section id="contacto" class="section">
       <div class="container contact">
         <div class="contact__left">
@@ -506,15 +480,14 @@
           </div>
 
           <div class="note">
-            <strong>Para vender:</strong> dile al cliente “esto está preparado para conectar su ficha de Google y salir
-            más profesional”.
+            <strong>Información:</strong> antes de realizar cualquier trabajo, te explicamos la solución recomendada y el presupuesto orientativo.
           </div>
         </div>
 
         <div class="contact__right">
           <div class="formCard">
             <h3>Pide tu aviso</h3>
-            <p class="muted">Formulario simple (sin backend). Puedes conectarlo luego a email o WhatsApp.</p>
+            <p class="muted">Formulario simple. Al enviarlo, se abrirá WhatsApp con el mensaje preparado.</p>
 
             <form id="leadForm" class="form" autocomplete="on">
               <label>
@@ -539,14 +512,16 @@
               </label>
 
               <button class="btn btn--primary btn--full" type="submit">Enviar por WhatsApp</button>
-              <p class="tiny">Al enviar, se abrirá WhatsApp con el mensaje preparado.</p>
+              <p class="tiny">
+                Al enviar este formulario se abrirá WhatsApp. Puedes consultar nuestra
+                <a href="legal/privacidad.html">política de privacidad</a>.
+              </p>
             </form>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
       <div class="container footer__grid">
         <div>
@@ -559,6 +534,9 @@
           <a href="#proyectos">Trabajos</a>
           <a href="#faq">FAQ</a>
           <a href="#contacto">Contacto</a>
+          <a href="legal/aviso-legal.html">Aviso legal</a>
+          <a href="legal/privacidad.html">Privacidad</a>
+          <a href="legal/cookies.html">Cookies</a>
         </div>
 
         <div class="footer__cta">
@@ -574,11 +552,80 @@
 
   </main>
 
-  <!-- Floating actions -->
   <div class="floatActions" aria-label="Acciones rápidas">
     <a class="floatActions__btn" href="tel:600000000" aria-label="Llamar">📞</a>
     <a class="floatActions__btn floatActions__btn--wa" href="https://wa.me/34600000000" aria-label="WhatsApp">💬</a>
   </div>
+
+  <section class="cookie-banner" id="cookieBanner" aria-label="Aviso de cookies" hidden>
+    <div class="cookie-banner__box">
+      <div class="cookie-banner__text">
+        <h2>Configuración de cookies</h2>
+        <p>
+          Utilizamos cookies técnicas necesarias para que la web funcione correctamente.
+          También podemos usar cookies de análisis solo si nos das tu consentimiento.
+        </p>
+
+        <div class="cookie-banner__links">
+          <a href="legal/cookies.html">Política de cookies</a>
+          <a href="legal/privacidad.html">Privacidad</a>
+          <a href="legal/aviso-legal.html">Aviso legal</a>
+        </div>
+      </div>
+
+      <div class="cookie-banner__actions">
+        <button type="button" class="cookie-btn cookie-btn--secondary" id="rejectCookies">
+          Rechazar
+        </button>
+        <button type="button" class="cookie-btn cookie-btn--secondary" id="configCookies">
+          Configurar
+        </button>
+        <button type="button" class="cookie-btn cookie-btn--primary" id="acceptCookies">
+          Aceptar
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="cookie-modal" id="cookieModal" aria-label="Panel de configuración de cookies" hidden>
+    <div class="cookie-modal__overlay" data-cookie-close="true" aria-hidden="true"></div>
+
+    <div class="cookie-modal__box" role="dialog" aria-modal="true" aria-labelledby="cookieModalTitle">
+      <div class="cookie-modal__head">
+        <h2 id="cookieModalTitle">Configurar cookies</h2>
+        <button type="button" class="cookie-modal__close" id="closeCookieModal" aria-label="Cerrar configuración">
+          ✕
+        </button>
+      </div>
+
+      <div class="cookie-modal__content">
+        <div class="cookie-option">
+          <div>
+            <h3>Cookies técnicas necesarias</h3>
+            <p>Son necesarias para que la web funcione y no se pueden desactivar desde este panel.</p>
+          </div>
+          <span class="cookie-option__badge">Siempre activas</span>
+        </div>
+
+        <label class="cookie-option cookie-option--check">
+          <div>
+            <h3>Cookies de análisis</h3>
+            <p>Nos ayudan a entender cómo se utiliza la web para mejorarla. Solo se activarán si aceptas.</p>
+          </div>
+          <input type="checkbox" id="analyticsCookies" />
+        </label>
+      </div>
+
+      <div class="cookie-modal__actions">
+        <button type="button" class="cookie-btn cookie-btn--secondary" id="saveRejectCookies">
+          Rechazar todas
+        </button>
+        <button type="button" class="cookie-btn cookie-btn--primary" id="saveCookieConfig">
+          Guardar configuración
+        </button>
+      </div>
+    </div>
+  </section>
 
   <script src="js/script.js"></script>
 </body>
